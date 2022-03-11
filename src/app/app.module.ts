@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './share/header/header.component';
 import { NavbarComponent } from './share/navbar/navbar.component';
-import { HomeComponent } from './module/home/home.component';
+
 
 
 
@@ -16,7 +16,7 @@ import { HomeComponent } from './module/home/home.component';
     AppComponent,
     HeaderComponent,
     NavbarComponent,
-    HomeComponent,
+   
   
   ],
   imports: [

@@ -1,2 +1,16 @@
-
-<h1>hhhhhhhhh</h1>
+<div class="navbar-templare" [@openClose]="isOpenNavbar ? 'open' : 'closed'">
+  <div class="content-nav">
+    <div class="close-nav">
+      <button class="close" (click)="closeNavbar()">×</button>
+    </div>
+    <hr />
+    <div class="them-container">
+      <button class="btn btn-dark">
+        <img src="../../../assets/icons/dark.svg" alt="dark">
+      </button>
+      <button class="btn btn-light">
+        <img src="../../../assets/icons/light.svg" alt="light">
+      </button>
+    </div>
+  </div>
+</div>

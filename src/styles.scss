@@ -1,3 +1,9 @@
+
+$color1:#1E3A4B;
+$color2:#E22030;
+$color3:#136371;
+$color4:#00AEAC;
+$color5:#B3E0EE;
 *,
 *::after,
 *::before {
@@ -9,6 +15,8 @@ html,
 body {
   height: 100%;
   direction: rtl;
+  background-color:$color5 ;
   
 
 }
+
